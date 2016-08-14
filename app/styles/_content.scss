@@ -1,0 +1,21 @@
+
+
+
+
+
+/*jumbotron border*/
+.container .jumbotron {
+    @include border-top-radius(30px);
+    @include border-bottom-radius(50px);
+    background-color: $jumbo-background; 
+}
+
+.jumbotron h1 {
+  color: $brand-primary;
+}
+
+.weather-forecast {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50vh 50vh;
+}

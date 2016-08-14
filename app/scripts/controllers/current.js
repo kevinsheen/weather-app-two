@@ -35,8 +35,16 @@ $scope.saveCity = function(city){
         }
         if (save===true){
             $localStorage.savedCities.push(cityData);
+            // Add object to trigger messages
+            $scope.citySaved = {
+                'success': true
+            };
         } else {
             console.log('city already saved');
+            // Add object to trigger messages
+            $scope.citySaved = {
+                'duplicate': true
+            };
         }
     }
 };

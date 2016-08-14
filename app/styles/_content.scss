@@ -14,10 +14,11 @@
   color: $brand-primary;
 }
 
-.weather-forecast dl {
-  display: grid; /* 1 */
-  grid-template-columns: 1fr 1fr 1fr 1fr; /* 2 */
-  grid-template-rows: 100vh; /* 3 */
+  dl.weather-report {
+  display: inline-block;
+  margin: 1.5em;
+  padding: 1em;
+  background: $grid;
 }
 
 

@@ -15,11 +15,5 @@
 }
 
 .weather-forecast {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50vh 50vh;
-}
+  color: green; 
 
-h1 {
-  color: $brand-primary;
-}

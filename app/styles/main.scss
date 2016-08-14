@@ -11,11 +11,6 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "transitions";
 
 
-.weather-forecast {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50vh 50vh;
-}
 
 .browsehappy {
   margin: 0.2em 0;

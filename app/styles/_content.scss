@@ -1,6 +1,9 @@
 
- .weather-report {
-  display: inline-grid; 
+ dl.weather-report {
+  display: inline-block;
+  margin: 1.5em;
+  padding: 0.5em;
+  background: $brand-primary;
 }
 
 /*jumbotron border*/
